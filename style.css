@@ -39,11 +39,17 @@ header {
   transform: scale(1.05);
 }
 
-.wallpaper button {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  padding: 8px 12px;
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  background: #222;
+  border-top: 1px solid #444;
+}
+
+.buttons button {
+  padding: 8px 14px;
   background: rgba(0,0,0,0.7);
   color: #fff;
   border: none;
@@ -52,6 +58,6 @@ header {
   transition: background 0.2s;
 }
 
-.wallpaper button:hover {
+.buttons button:hover {
   background: rgba(255,255,255,0.2);
 }
