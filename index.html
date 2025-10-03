@@ -12,12 +12,21 @@
     <p>Free high-quality wallpapers</p>
   </header>
 
-  <main>
-    <div class="wallpapers">
+  <main class="wallpapers">
+    <div class="wallpaper">
       <img src="wallpapers/wall1.jpg" alt="Wallpaper 1">
+      <button onclick="openFullscreen(this.previousElementSibling)">Fullscreen</button>
+    </div>
+    <div class="wallpaper">
       <img src="wallpapers/wall2.jpg" alt="Wallpaper 2">
+      <button onclick="openFullscreen(this.previousElementSibling)">Fullscreen</button>
+    </div>
+    <div class="wallpaper">
       <img src="wallpapers/wall3.jpg" alt="Wallpaper 3">
+      <button onclick="openFullscreen(this.previousElementSibling)">Fullscreen</button>
     </div>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
