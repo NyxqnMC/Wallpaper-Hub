@@ -15,15 +15,32 @@
   <main class="wallpapers">
     <div class="wallpaper">
       <img src="wallpapers/wall1.jpg" alt="Wallpaper 1">
-      <button onclick="openFullscreen(this.previousElementSibling)">Fullscreen</button>
+      <div class="buttons">
+        <button onclick="openFullscreen(this.parentElement.previousElementSibling)">Fullscreen</button>
+        <a href="wallpapers/wall1.jpg" download>
+          <button>Download</button>
+        </a>
+      </div>
     </div>
+
     <div class="wallpaper">
       <img src="wallpapers/wall2.jpg" alt="Wallpaper 2">
-      <button onclick="openFullscreen(this.previousElementSibling)">Fullscreen</button>
+      <div class="buttons">
+        <button onclick="openFullscreen(this.parentElement.previousElementSibling)">Fullscreen</button>
+        <a href="wallpapers/wall2.jpg" download>
+          <button>Download</button>
+        </a>
+      </div>
     </div>
+
     <div class="wallpaper">
       <img src="wallpapers/wall3.jpg" alt="Wallpaper 3">
-      <button onclick="openFullscreen(this.previousElementSibling)">Fullscreen</button>
+      <div class="buttons">
+        <button onclick="openFullscreen(this.parentElement.previousElementSibling)">Fullscreen</button>
+        <a href="wallpapers/wall3.jpg" download>
+          <button>Download</button>
+        </a>
+      </div>
     </div>
   </main>
 
